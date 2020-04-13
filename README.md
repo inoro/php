@@ -7,7 +7,8 @@
 class User {
 
    // 如果属性类型错误则会报错
-   // 报错实例返回：Fatal error: Uncaught TypeError: Typed property User::$id must be int, string used in /www/index.php:14 Stack trace: #0 /www/index.php(21): User->__construct(21, 'xingming') #1 {main} thrown in /www/index.php on line 14
+   // 报错实例返回：
+   // Fatal error: Uncaught TypeError: Typed property User::$id must be int, string
    public int $id;
    public string $name;
 
